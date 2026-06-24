@@ -51,14 +51,14 @@ jobs:
       - name: build
         run: |
           pnpm run build
-          touch build/.nojekyll
+          touch dist/.nojekyll
       - name: Setup Pages
         uses: actions/configure-pages@v6
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
           # Upload entire repository
-          path: 'build/'
+          path: 'dist/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
