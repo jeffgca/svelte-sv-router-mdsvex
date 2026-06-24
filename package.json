@@ -20,10 +20,11 @@
 		"vite": "^8.0.12"
 	},
 	"dependencies": {
+		"shiki": "^4.2.0",
 		"sv-router": "^0.17.0"
 	},
 	"siteConfig": {
-		"title": "md-sv-site",
+		"title": "Site title here!",
 		"description": "A SvelteKit site with Markdown support",
 		"lang": "en",
 		"theme": "dark",
