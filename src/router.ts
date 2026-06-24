@@ -7,4 +7,5 @@ export const { p, navigate, isActive, route } = createRouter({
 	'/about': About,
 	'/posts': () => import('./routes/posts/Posts.svelte'),
 	'/posts/:id': () => import('./routes/posts/Post.svelte'),
+	layout: () => import('./routes/Layout.svelte'),
 })

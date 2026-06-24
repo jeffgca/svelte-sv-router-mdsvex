@@ -11,20 +11,23 @@
 	},
 	"devDependencies": {
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
+		"@tailwindcss/typography": "^0.5.20",
+		"@tailwindcss/vite": "^4.3.1",
 		"@tsconfig/svelte": "^5.0.8",
 		"@types/node": "^24.12.3",
+		"daisyui": "^5.5.23",
 		"mdsvex": "^0.12.7",
+		"mdsvex-relative-images": "^2.0.0",
+		"shiki": "^4.2.0",
+		"sv-router": "^0.17.0",
 		"svelte": "^5.55.5",
 		"svelte-check": "^4.4.8",
+		"tailwindcss": "^4.3.1",
 		"typescript": "~6.0.2",
 		"vite": "^8.0.12"
 	},
-	"dependencies": {
-		"shiki": "^4.2.0",
-		"sv-router": "^0.17.0"
-	},
 	"siteConfig": {
-		"title": "Site title here!",
+		"title": "Test markdown site",
 		"description": "A SvelteKit site with Markdown support",
 		"lang": "en",
 		"theme": "dark",

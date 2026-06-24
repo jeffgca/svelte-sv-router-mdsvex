@@ -1,6 +1,9 @@
 import { mdsvex, escapeSvelte } from 'mdsvex'
 import { createHighlighter } from 'shiki'
+import relativeImages from 'mdsvex-relative-images'
+import { defineConfig } from 'vite'
 
+const plugins = [relativeImages]
 const theme = 'github-dark'
 
 const highlighter = await createHighlighter({
@@ -14,7 +17,7 @@ export default {
 	preprocess: [
 		mdsvex({
 			extensions: ['.svx', '.md'],
-			// remarkPlugins: plugins,
+			remarkPlugins: plugins,
 			highlight: {
 				highlighter: async (code, lang) => {
 					const html = escapeSvelte(

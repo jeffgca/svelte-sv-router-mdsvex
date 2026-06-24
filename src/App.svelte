@@ -13,7 +13,4 @@
 	}
 </script>
 
-<a href="/">Home</a>
-<a href="/about">About</a>
-
 <Router />
