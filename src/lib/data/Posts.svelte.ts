@@ -16,6 +16,7 @@ async function fetchMarkdownPosts() {
 				summary: {
 					html: metadata.description ?? '',
 				},
+				content: post.default,
 			}
 		}),
 	)

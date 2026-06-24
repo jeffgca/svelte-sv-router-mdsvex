@@ -1,5 +1,5 @@
 <script>
-	import { SiteConfig } from '../lib/models/Site.svelte'
+	import { SiteConfig } from '../lib/data/Site.svelte'
 	import Posts from '../../src/lib/components/Posts.svelte'
 </script>
 
