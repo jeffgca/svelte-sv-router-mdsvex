@@ -1,0 +1,1 @@
+import{D as e,O as t,n}from"./disclose-version-DzadCBlC.js";import"./legacy-pRbo-y3l.js";import{t as r}from"./router-BFIZS9S9.js";function i(i,a){t(a,!1),r.getParams(`/posts/:id`),n(),e()}export{i as default};

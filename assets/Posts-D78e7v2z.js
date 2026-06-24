@@ -1,0 +1,1 @@
+import{D as e,O as t,f as n,m as r}from"./disclose-version-DzadCBlC.js";import"./Posts.svelte-C6pPkhWw.js";var i=r(`<h1>Posts</h1>`);function a(r,a){t(a,!0),n(r,i()),e()}export{a as default};

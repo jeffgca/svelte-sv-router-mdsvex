@@ -1,0 +1,1 @@
+import{M as e,a as t,b as n,f as r,m as i}from"./disclose-version-DzadCBlC.js";var a=i(`<div class="wrapper prose svelte-88z7i0"><!></div>`);function o(i,o){var s=a();t(n(s),()=>o.children),e(s),r(i,s)}export{o as default};
