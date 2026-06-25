@@ -2,7 +2,7 @@
 name: Deploy static content to Pages
 
 env:
-  BUILD_MODE: production
+  MODE: production
   PAGES_BASE: ${{ github.event.repository.name }}
   BLOG_URL: https://${{ github.repository_owner }}.github.io/
 
