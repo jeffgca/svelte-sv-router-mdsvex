@@ -3,7 +3,8 @@ import { createHighlighter } from 'shiki'
 import relativeImages from 'mdsvex-relative-images'
 import { defineConfig } from 'vite'
 
-const plugins = [relativeImages]
+let plugins = [[relativeImages, { basePath: `/${process.env.PAGES_BASE}/` }]]
+
 const theme = 'github-dark'
 
 const highlighter = await createHighlighter({

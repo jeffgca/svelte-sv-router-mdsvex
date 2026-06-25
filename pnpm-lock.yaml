@@ -37,8 +37,8 @@ importers:
         specifier: ^0.12.7
         version: 0.12.7(svelte@5.56.3)
       mdsvex-relative-images:
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: github:jeffgca/mdsvex-relative-images#main
+        version: https://codeload.github.com/jeffgca/mdsvex-relative-images/tar.gz/bdbeef523c63f171289c7dbe0c39bbeab965c045
       shiki:
         specifier: ^4.2.0
         version: 4.2.0
@@ -680,8 +680,9 @@ packages:
   mdast-util-to-hast@13.2.1:
     resolution: {integrity: sha512-cctsq2wp5vTsLIcaymblUriiTcZd0CwWtCbLvrOzYCDZoWyMNV8sZ7krj09FSnsiJi3WVsHLM4k6Dq/yaPyCXA==}
 
-  mdsvex-relative-images@2.0.0:
-    resolution: {integrity: sha512-QqFL5b9zcnQwAvlJK3SMX2bpDw3+/8jiEXZUAkRyeCUF+X3V+hx6xLbgzDriR4bA5vbTq8zDzPGMtLwLOU2Xeg==}
+  mdsvex-relative-images@https://codeload.github.com/jeffgca/mdsvex-relative-images/tar.gz/bdbeef523c63f171289c7dbe0c39bbeab965c045:
+    resolution: {gitHosted: true, integrity: sha512-2G4vn16VWpJq0ov05SxtkvPsAvX9L6DzbzMoomkxwg/vrLGm8jbco9Melilp3ZDG9i29gwY+SwOc2qzDTFu3rw==, tarball: https://codeload.github.com/jeffgca/mdsvex-relative-images/tar.gz/bdbeef523c63f171289c7dbe0c39bbeab965c045}
+    version: 2.0.0
 
   mdsvex@0.12.7:
     resolution: {integrity: sha512-gx4bReLCUvq+MPErHXYeyX+TEq1hsS2KfiZtEOMNTcbibSouFy8AHc5h04KbGCl+g5tLuo4/lbgRVYRnc7bJZw==}
@@ -1528,7 +1529,7 @@ snapshots:
       unist-util-visit: 5.1.0
       vfile: 6.0.3
 
-  mdsvex-relative-images@2.0.0:
+  mdsvex-relative-images@https://codeload.github.com/jeffgca/mdsvex-relative-images/tar.gz/bdbeef523c63f171289c7dbe0c39bbeab965c045:
     dependencies:
       just-camel-case: 4.0.2
       unist-util-visit: 3.1.0
