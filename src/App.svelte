@@ -13,4 +13,8 @@
 	}
 </script>
 
+<h1>App.svelte</h1>
+
 <Router />
+
+<!-- <p>after router</p> -->

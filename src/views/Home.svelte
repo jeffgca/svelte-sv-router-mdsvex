@@ -1,9 +1,9 @@
 <script>
 	import { SiteConfig } from '../lib/data/Site.svelte'
-	import Posts from '../../src/lib/components/Posts.svelte'
+	import Posts from '../lib/components/Posts.svelte'
 </script>
 
-<h1>Home</h1>
+<h2>Home.svelte</h2>
 
 <p>{SiteConfig.config.title}</p>
 

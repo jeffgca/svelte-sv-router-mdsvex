@@ -7,11 +7,8 @@ import 'dotenv/config'
 let basePath = ''
 
 if (process.env.MODE === 'production') {
-	// process.env.PAGES_BASE = process.env.PAGES_BASE || ''
-	basePath = `${process.env.PAGES_BASE}`
+	basePath = `${process.env.PAGES_BASE}` || ''
 }
-
-console.log('XXX basePath', basePath)
 
 let plugins = [[relativeImages, { basePath }]]
 

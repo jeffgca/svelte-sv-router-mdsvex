@@ -6,5 +6,5 @@ import 'dotenv/config'
 // https://vite.dev/config/
 export default defineConfig({
 	plugins: [svelte(), tailwindcss()],
-	base: process.env.MODE === 'production' ? `/${process.env.PAGES_BASE}/` : '',
+	base: process.env.MODE === 'production' ? `/${process.env.PAGES_BASE}` : '',
 })

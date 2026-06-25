@@ -1,7 +1,7 @@
 import { SiteConfig } from './Site.svelte'
 
 async function fetchMarkdownPosts() {
-	const postFiles = import.meta.glob('/src/routes/posts/md/*.md')
+	const postFiles = import.meta.glob('/src/views/posts/md/*.md')
 
 	return Promise.all(
 		Object.entries(postFiles).map(async ([filePath, resolver]) => {
@@ -38,10 +38,10 @@ export type Posts = Post[]
 
 export const Posts = $state({ posts })
 
-export function postSummary(post: Post) {
-	return post
-}
+// export function postSummary(post: Post) {
+// 	return post
+// }
 
-export function postSummaries(posts, query: object = {}) {
-	return posts
-}
+// export function postSummaries(posts, query: object = {}) {
+// 	return posts
+// }

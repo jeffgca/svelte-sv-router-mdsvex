@@ -4,9 +4,15 @@
 
 ```bash
 $ pnpm install
+...
 $ pnpm run dev
+...
 ```
 
 ## Features
 
-- [ ] Github Pages support out of the box
+- [x] Github Pages support out of the box
+- [ ] individual post view for each post ( slugs )
+- [ ] Linkified posts view
+- [ ] Pagination
+- [ ] RSS feed
