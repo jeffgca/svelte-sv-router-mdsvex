@@ -1,14 +1,13 @@
 {
 	"name": "md-sv-site",
 	"private": true,
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview",
-		"check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
-		"deploy": "gh-pages -d dist"
+		"check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
 	},
 	"devDependencies": {
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
@@ -18,12 +17,12 @@
 		"@types/node": "^24.13.2",
 		"daisyui": "^5.5.23",
 		"gh-pages": "^6.3.0",
-		"mdsvex-relative-images": "github:jeffgca/mdsvex-relative-images#main",
 		"mdsvex": "^0.12.7",
+		"mdsvex-relative-images": "github:jeffgca/mdsvex-relative-images#main",
 		"shiki": "^4.2.0",
 		"sv-router": "^0.17.0",
-		"svelte": "^5.56.3",
-		"svelte-check": "^4.7.0",
+		"svelte": "^5.56.4",
+		"svelte-check": "^4.7.1",
 		"tailwindcss": "^4.3.1",
 		"typescript": "~6.0.3",
 		"vite": "^8.1.0"

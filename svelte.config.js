@@ -4,8 +4,6 @@ import relativeImages from 'mdsvex-relative-images'
 import { defineConfig } from 'vite'
 import 'dotenv/config'
 
-console.log('XXX Env', process.env)
-
 let basePath = ''
 
 if (process.env.MODE === 'production') {
