@@ -2,8 +2,20 @@ import { mdsvex, escapeSvelte } from 'mdsvex'
 import { createHighlighter } from 'shiki'
 import relativeImages from 'mdsvex-relative-images'
 import { defineConfig } from 'vite'
+import 'dotenv/config'
 
-let plugins = [[relativeImages, { basePath: `/${process.env.PAGES_BASE}/` }]]
+console.log('XXX Env', process.env)
+
+let basePath = ''
+
+if (process.env.MODE === 'production') {
+	// process.env.PAGES_BASE = process.env.PAGES_BASE || ''
+	basePath = `${process.env.PAGES_BASE}`
+}
+
+console.log('XXX basePath', basePath)
+
+let plugins = [[relativeImages, { basePath }]]
 
 const theme = 'github-dark'
 
