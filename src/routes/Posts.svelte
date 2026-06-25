@@ -1,5 +1,5 @@
 <script>
-	import { Posts } from '../../lib/data/Posts.svelte'
+	import { Posts } from '../lib/data/Posts.svelte'
 
 	$inspect(Posts.posts)
 </script>
