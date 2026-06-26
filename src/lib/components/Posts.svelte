@@ -2,7 +2,7 @@
 	import { Posts } from '../data/Posts.svelte'
 	import Post from './Post.svelte'
 
-	$inspect(Posts.posts)
+	$inspect('Posts.svelte', Posts.posts)
 </script>
 
 {#each Posts.posts as post}

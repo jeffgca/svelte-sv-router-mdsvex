@@ -1,7 +1,4 @@
 <script>
-	import { route } from '../router'
-	console.log(import.meta.env)
-	$inspect('route.params', route.params)
 </script>
 
 <h1>About.svelte</h1>

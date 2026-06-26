@@ -1,7 +1,7 @@
 import { SiteConfig } from './Site.svelte'
 
 async function fetchMarkdownPosts() {
-	const postFiles = import.meta.glob('/src/views/posts/md/*.md')
+	const postFiles = import.meta.glob('/src/routes/posts/md/*.md')
 
 	return Promise.all(
 		Object.entries(postFiles).map(async ([filePath, resolver]) => {
@@ -23,6 +23,8 @@ async function fetchMarkdownPosts() {
 }
 
 let posts = await fetchMarkdownPosts()
+
+console.log('posts', posts)
 
 export type Post = {
 	title: string
