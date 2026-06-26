@@ -7,5 +7,5 @@ import { router } from 'sv-router/vite-plugin'
 // https://vite.dev/config/
 export default defineConfig({
 	plugins: [svelte(), router(), tailwindcss()],
-	// base: process.env.MODE === 'production' ? `/${process.env.PAGES_BASE}` : '',
+	base: process.env.MODE === 'production' ? `/${process.env.PAGES_BASE}` : '',
 })
