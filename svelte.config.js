@@ -10,6 +10,8 @@ if (process.env.MODE === 'production') {
 	basePath = `${process.env.PAGES_BASE}` || ''
 }
 
+console.log('XXX basePath', basePath)
+
 let plugins = [[relativeImages, { basePath }]]
 
 const theme = 'github-dark'
